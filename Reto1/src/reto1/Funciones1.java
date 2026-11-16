@@ -1,11 +1,11 @@
 package reto1;
 
 public class Funciones1 {
-	public static int restar(int a, int b) {
-		return a - b;
+	public static int maximo3(int n1, int n2, int n3) {
+		return Math.max(n1, Math.max(n2, n3));
 	}
 	
-	public static int dividir(int a, int b) {
-		return b == 0 ? null : (a/b);
+	public static int minimo3(int n1, int n2, int n3) {
+		return Math.min(n1, Math.min(n2, n3));
 	}
 }
