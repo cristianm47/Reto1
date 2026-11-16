@@ -13,4 +13,5 @@ public class Funciones3 {
 	public static boolean esNegativo(int n) {
 		return n < 0; 
 	}
+	
 }
